@@ -9947,6 +9947,18 @@ pre .code, pre code, .code, code {
 .card-inverse > .card-block > li a {
   color: #fff; }
 
+img.card-img-top {
+  height: 180px;
+  width: 100%;
+  display: block; }
+
+.media {
+  margin-top: 10px; }
+
+.media img {
+  width: 120px;
+  height: 120px; }
+
 .content-header {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -283,6 +283,21 @@ pre .code, pre code, .code, code {
   color: #fff;
 }
 
+img.card-img-top {
+  height: 180px;
+  width: 100%;
+  display: block;
+}
+
+.media {
+  margin-top: 10px;
+}
+
+.media img {
+  width: 120px;
+  height: 120px;
+}
+
 .content-header {
   display: flex;
   justify-content: space-between;
