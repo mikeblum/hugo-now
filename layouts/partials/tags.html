@@ -1,0 +1,6 @@
+<div class="tags text-muted">
+	<i class="fa fa-tags" aria-hidden="true"></i>
+    {{ range . }}
+        <a class="button is-link code" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+</div>

@@ -1,0 +1,12 @@
+<h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }} 
+    <small class="text-muted pull-right">{{ .Date.Format "January 1, 2006" }}</small>
+</h1>
+<div class="post-metadata">
+    {{ if (ne ($.Param "displayauthor") false) }}
+        <small class="text-muted">by {{ .Params.author | default .Site.Params.author }}</small>
+    {{ end }}
+    <p class="text-muted"></p>
+    {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+    {{ end }}
+</div>

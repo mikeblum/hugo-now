@@ -1,0 +1,15 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+  <section class="section">
+    <div class="container">
+      <article class="article">
+        {{ partial "post-metadata-single" . }}
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </section>
+</div>
+{{ partial "footer" . }}
