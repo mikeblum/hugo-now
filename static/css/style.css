@@ -9967,6 +9967,9 @@ img.card-img-top {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.card-block {
+  padding-top: 0rem; }
+
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;
