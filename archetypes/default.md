@@ -2,8 +2,6 @@
 title = ""
 date = ""
 slug = ""
-tags = [
-  ""
-]
+tags = []
 draft = true
 ---
