@@ -1,6 +1,6 @@
 # Hugo Now
 
-![Powered By Hugo](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/powered-by-hugo.png)
+![Powered By Hugo](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)
 
 A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo implementation is inspired by [Hemingway](https://github.com/tanksuzuki/hemingway).
 
@@ -10,13 +10,23 @@ A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo 
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/homepage.png" alt="home page"></img>
 
+---
+
 ### Posts
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/post.png" alt="post"></img>
 
+---
+
 ### Dashboard
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/dashboard.png" alt="dashboard"></img>
+
+---
+
+### Projects
+
+<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/projects.png" alt="dashboard"></img>
 
 ## Features
 

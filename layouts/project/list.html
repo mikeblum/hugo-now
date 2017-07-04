@@ -1,0 +1,25 @@
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<div class="container">
+  <section class="section">
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "project") }}
+      {{ range sort $paginator.Pages }}
+      <article>
+        <div class="card">
+          <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Params.title }}">
+          <div class="card-block">
+            <h1 class="card-title">{{ .Params.title }}</h1>
+            {{ if .Params.tags }}
+                {{ partial "tags" .Params.tags }}
+            {{ end }}
+            <p class="card-text">{{ .Params.description }}</p>
+            <a href="#" class="card-link">{{ .Params.website }}</a>
+            <a href="#" class="card-link">{{ .Params.repo }}</a>
+          </div>
+        </div>
+      </article>
+      {{ end }}
+  </section>
+</div>
+{{ partial "paginate" . }}
+{{ partial "footer" . }}
