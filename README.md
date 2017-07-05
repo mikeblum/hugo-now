@@ -26,7 +26,7 @@ A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo 
 
 ### Projects
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/projects.png" alt="dashboard"></img>
+<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/project.png" alt="dashboard"></img>
 
 ## Features
 
@@ -169,5 +169,5 @@ Hugo Now is licensed under the [MIT License](LICENSE.md).
 
 ## Credits
 
-is based on [Hemingway](https://github.com/tanksuzuki/hemingway) created by [Asuka Suzuki](https://github.com/tanksuzuki).
+based on [Hemingway](https://github.com/tanksuzuki/hemingway) created by [Asuka Suzuki](https://github.com/tanksuzuki).
 
