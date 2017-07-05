@@ -7,8 +7,8 @@ licenselink = "https://github.com/mikeblum/hugo-now/blob/master/LICENSE.md"
 description = "a Hugo port of Jekyll Now"
 homepage = "http://siteforthistheme.com/"
 tags = [blog, profile, jekyll-now, bootstrap, font awesome, responsive, pygments]
-features = [tags, blog, portfolio]
-min_version = "0.24.1"
+features = [blog, portfolio]
+min_version = 0.24
 
 [author]
   name = "Michael Blum"
