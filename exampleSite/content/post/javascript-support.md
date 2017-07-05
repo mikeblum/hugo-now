@@ -10,11 +10,7 @@ tags: ["bootstrap", "javascript", "noscript"]
 
 <!--more-->
 
----
-
-[Javascript Enabled](#javascript-enabled)
-
----
+## Javascript Enabled?
 
 <noscript>
     <div class="bd-callout bd-callout-warning">
@@ -28,12 +24,12 @@ tags: ["bootstrap", "javascript", "noscript"]
 
 <div id="js-enabled-msg" class="bd-callout bd-callout-success js-enabled">
     <h4>Javascript Enabled</h4>
-    <p>While Hugo Now assumes javascript is disabled, full Bootstrap JS is supported (see <code>partials/javascript.html</code>)</p>
+    <p>While Hugo Now assumes javascript is disabled, full Bootstrap JS is supported</p>p>
+    <p>(see <code>partials/javascript.html</code>)</p>
 </div>
 
+<!-- jQuery not loaded yet -->
 <script type="text/javascript">
-    $( document ).ready(function() {
-        console.log( "Javascript enabled" );
-        $('#s-enabled-msg').show();
-    });
+    var element = document.getElementById('js-enabled-msg')
+    element.style.display = 'block';
 </script>
