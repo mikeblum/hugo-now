@@ -4,6 +4,8 @@ languageCode: en
 title: My New Hugo Site
 # theme
 theme: "hugo-now"
+# Comment the themesDir option if you use this theme in production
+themesDir: ../..
 
 taxonomies:
   category: "categories"
