@@ -12,6 +12,8 @@ tags: ["bootstrap", "javascript", "noscript"]
 
 ## Javascript Enabled?
 
+---
+
 <noscript>
     <div class="bd-callout bd-callout-warning">
         <h4>Javascript Disabled</h4>
