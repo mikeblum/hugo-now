@@ -1,0 +1,31 @@
+{
+  "name": "hugo-now",
+  "version": "1.0.0",
+  "description": "![Powered By Hugo](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)",
+  "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-exec": "^2.1.3",
+    "gulp-minify": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeblum/hugo-now.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeblum/hugo-now/issues"
+  },
+  "homepage": "https://github.com/mikeblum/hugo-now#readme"
+}

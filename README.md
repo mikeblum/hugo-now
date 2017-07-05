@@ -122,13 +122,42 @@ params:
   GoogleAnalytics: UA-XXXXXX
 ```
 
+## Content
+
+* `Use SVG rather than PNG / JPG`
+	 - they style better and take less bandwidth
+* `Pygments styles use SASS`
+	- PygmentsStyle is configured by changing the `sass/style.scss`
+	- Defaults to `default` Pygments style - see [Pygments Styles](https://help.farbox.com/pygments.html)
+
 ## Build
+
+### Hugo
 
 ```
 hugo server
 ```
 
 You can go to localhost:1313 and this theme should be visible.
+
+### SASS
+
+Build SASS updates by running `gulp` (development) or `gulp dist` (production)
+
+Update `includes.html` with the appropriate CSS file (default is style.min.css):
+
+```
+<!-- CSS -->
+<link rel="stylesheet" href="/css/style.min.css">
+```
+
+### Javascript
+
+Hugo Now supports Bootstrap JS but Github Pages and others disable Javascript. This is available for sites hosted on S3 and elsewhere.
+
+Build JS updates by running `gulp` (development) or `gulp dist` (production)
+
+Update `javascript.html` with the appropriate JS files (defaults are bootstrap dependencies).
 
 ## License
 
