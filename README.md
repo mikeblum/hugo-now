@@ -26,7 +26,7 @@ A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo 
 
 ### Projects
 
-<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/projects.png" alt="dashboard"></img>
+<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/project.png" alt="dashboard"></img>
 
 ## Features
 
