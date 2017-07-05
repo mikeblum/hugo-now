@@ -10,9 +10,9 @@ tags: ["bootstrap", "javascript", "noscript"]
 
 <!--more-->
 
-## Javascript Enabled?
-
 ---
+
+## Javascript Enabled?
 
 <noscript>
     <div class="bd-callout bd-callout-warning">
