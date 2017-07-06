@@ -5,9 +5,9 @@ name = "Hugo Now"
 license = "MIT"
 licenselink = "https://github.com/mikeblum/hugo-now/blob/master/LICENSE.md"
 description = "a Hugo port of Jekyll Now"
-homepage = "http://siteforthistheme.com/"
-tags = [blog, profile, jekyll-now, bootstrap, font awesome, responsive, pygments]
-features = [blog, portfolio]
+homepage = "https://github.com/mikeblum/hugo-now"
+tags = ["blog", "profile", "jekyll-now", "bootstrap", "font awesome", "responsive", "pygments"]
+features = ["blog", "portfolio"]
 min_version = 0.24
 
 [author]

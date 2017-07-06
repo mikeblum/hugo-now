@@ -26,7 +26,7 @@ tags: ["bootstrap", "javascript", "noscript"]
 
 <div id="js-enabled-msg" class="bd-callout bd-callout-success js-enabled">
     <h4>Javascript Enabled</h4>
-    <p>While Hugo Now assumes javascript is disabled, full Bootstrap JS is supported</p>p>
+    <p>While Hugo Now assumes javascript is disabled, full Bootstrap JS is supported</p>
     <p>(see <code>partials/javascript.html</code>)</p>
 </div>
 

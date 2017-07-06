@@ -1,6 +1,6 @@
 # Hugo Now
 
-![Hugo Now](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/hugo-now.png)
+![Hugo Now](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)
 
 A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo implementation is inspired by [Hemingway](https://github.com/tanksuzuki/hemingway).
 
@@ -92,34 +92,35 @@ Your `.gitmodules` should now contain:
 
 ## Configure
 
-`config.yaml`
+`config.toml`
 
-```
----
-baseurl: 
-languageCode: en
-title: 
+```toml
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
 # theme
-theme: "hugo-now"
+theme = "hugo-now"
+# Comment the themesDir option if you use this theme in production
+themesDir = "../.."
+# google analytics
+GoogleAnalytics = "UA-XXXXXX"
 
-taxonomies:
-  category: "categories"
-  tag: "tags"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
-params:
-  description: 
-  author: 
-  keywords: []
-  avatar: /images/profile.jpg
-  displayauthor: false
+[params]
+  description = "Hugo port of Jekyll Now"
+  author = "Hugo Now"
+  keywords = ["hugo-now", "hugo"]
+  avatar = "/images/hugo.png"
+  displayauthor = false
   # pygments
-  PygmentsUseClasses: true
-  PygmentsCodeFences: true
+  PygmentsUseClasses = true
+  PygmentsCodeFences = true
   # pagination
-  paginate: 10
-  paginatePath: page
-  # google analytics
-  GoogleAnalytics: UA-XXXXXX
+  paginate = 10
+  paginatePath = "page"
 ```
 
 ## Content
