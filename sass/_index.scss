@@ -298,9 +298,14 @@ img.card-img-top {
   height: 120px;
 }
 
-.content-header {
+.post-banner {
   display: flex;
   justify-content: space-between;
+
+  img {
+    height: 150px;
+    width: 100%;
+  }
 }
 
 .card-block {

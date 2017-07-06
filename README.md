@@ -28,6 +28,14 @@ A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo 
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/project.png" alt="dashboard"></img>
 
+---
+
+### Table of Contents
+
+<img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/screenshots/table-of-contents.png" alt="table of contents"></img>
+
+---
+
 ## Features
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/bootstrap-solid.png" alt="bootstrap 4" width="120px" height="120px"></img>
@@ -40,7 +48,6 @@ Update from Bootstrap 3 to 4
 <h3 class="mt-0">Font Awesome</h3>
 Latest Font Awesome icons
 
-:no_good:
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/javascript.png" alt="no javascript" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Progrssive Enhancement</h3>
@@ -67,6 +74,7 @@ Available for:
 
 - :white_check_mark: posts / .Content
 
+
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/pygments-logo.png" alt="pygments" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Syntax Highlighting</h3>
@@ -81,9 +89,21 @@ I would argue site usability / robustness far out weighs build times.
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/google-analytics.png" alt="google analytics" width="120px" height="120px"></img>
 
 <h3 class="mt-0">Google Analytics</h3>
-Configure Google Analytics with:
+Configure Google Analytics with `GoogleAnalytics`
 
-    .Params.GoogleAnalytics
+<h3 class="mt-0">Table of Contents</h3>
+<h4>Headings are resolved into a styleable Table of Contents</h4>
+
+Enabled via `toc` in your front matter:
+
+```
+toc: true
+```
+
+* true = show table of contents
+* false = hide table of contents
+
+---
 
 ## Install
 

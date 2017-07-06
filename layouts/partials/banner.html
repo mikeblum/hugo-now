@@ -1,0 +1,5 @@
+<div class="well post-banner">
+    {{ range .Params.banner }}
+        <img class="banner-img" src="{{ .src }}" alt="{{ .alt }}"></img>
+    {{ end }}
+</div>
