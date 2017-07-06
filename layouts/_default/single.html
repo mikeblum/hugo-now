@@ -6,7 +6,8 @@
       <article class="article">
         {{ partial "post-metadata-single" . }}
         <div class="content">
-          {{ .Content }}
+          <!-- supports emoji -->
+          {{ .Content | emojify }}
         </div>
       </article>
     </div>

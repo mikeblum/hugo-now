@@ -1,6 +1,6 @@
 # Hugo Now
 
-![Hugo Now](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)
+![Powered By Hugo](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)
 
 A Hugo port of [Jekyll Now](https://github.com/barryclark/jekyll-now). The Hugo implementation is inspired by [Hemingway](https://github.com/tanksuzuki/hemingway).
 
@@ -56,9 +56,20 @@ Using the power of SASS to power our build pipeline. All major dependencies have
 <h3 class="mt-0">Modern Build Pipeline</h3>
 Without Jekyll's Asset pipeline, a Hugo theme needs a build system. I opted for <a href="http://gulpjs.com/">gulp.js</a>
 
+<h3 class="mt-0">Emoji :sunglesses:</h3>
+Support for emojis found here: <a href="https://www.webpagefx.com/tools/emoji-cheat-sheet/">Emoji Cheatsheet</a>
+
+Available for:
+
+- :white_check_mark: tags
+
+- :white_check_mark: titles
+
+- :white_check_mark: posts / .Content
+
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/pygments-logo.png" alt="pygments" width="120px" height="120px"></img>
 
- <h3 class="mt-0">Syntax Highlighting</h3>
+<h3 class="mt-0">Syntax Highlighting</h3>
 <p>
 Rather then using a JS library like <a href="https://highlightjs.org/">hightlight.js</a> I opt for server-side rendering with <a href="http://pygments.org/">Pygments</a> to keep in line with progressive enhamcements. Here is Hugo's <a href="https://gohugo.io/extras/highlighting">opinion</a> on the matter:
 <blockquote class="blockquote">
@@ -170,5 +181,5 @@ Hugo Now is licensed under the [MIT License](LICENSE.md).
 
 ## Credits
 
-based on [Hemingway](https://github.com/tanksuzuki/hemingway) created by [Asuka Suzuki](https://github.com/tanksuzuki).
+is based on [Hemingway](https://github.com/tanksuzuki/hemingway) created by [Asuka Suzuki](https://github.com/tanksuzuki).
 

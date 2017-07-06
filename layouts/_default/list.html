@@ -7,7 +7,8 @@
       <article>
         {{ partial "post-metadata-list" . }}
         <div class="content">
-          {{ .Summary | safeHTML }}
+          <!-- supports emoji -->
+          {{ .Summary | emojify }}
         </div>
       </article>
       {{ end }}

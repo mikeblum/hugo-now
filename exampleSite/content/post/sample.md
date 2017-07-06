@@ -12,11 +12,3 @@ tags: ["blog", "post"]
 <!--more-->
 
 ---
-
-<!--
-  Section links are seperated with a |
--->
-
-[Section A](#Section-A) | [Section B](#Section-B)
-
----

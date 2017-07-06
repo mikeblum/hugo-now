@@ -1,7 +1,7 @@
 ---
 title: "Javascript Support"
 date: 2017-07-04T20:55:50-05:00
-tags: ["bootstrap", "javascript", "noscript"]
+tags: ["bootstrap", "javascript", "noscript", "demo", "feature"]
 ---
 
 <div class="well content-header">
