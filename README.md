@@ -63,7 +63,7 @@ Using the power of SASS to power our build pipeline. All major dependencies have
 <h3 class="mt-0">Modern Build Pipeline</h3>
 Without Jekyll's Asset pipeline, a Hugo theme needs a build system. I opted for <a href="http://gulpjs.com/">gulp.js</a>
 
-<h3 class="mt-0">Emoji :sunglesses:</h3>
+<h3 class="mt-0">Emoji :sunglasses:</h3>
 Support for emojis found here: <a href="https://www.webpagefx.com/tools/emoji-cheat-sheet/">Emoji Cheatsheet</a>
 
 Available for:
