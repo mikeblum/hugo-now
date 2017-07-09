@@ -12,12 +12,12 @@
         </h3>
       </div>
     </div>
-    <div class="card card-inverse card-primary mb-3 text-center">
+    <div class="card card-inverse card-info mb-3 text-center">
       <div class="card-block">
         <h1 class="card-title"><i class="fa fa-tags" aria-hidden="true"></i> Tags</h1>
         <p class="card-text">
           {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-            <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+            <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a> <span class="badge badge-pill badge-default">{{ len $taxonomy }}</span></li>
           {{ end }}
         </p>
       </div>
