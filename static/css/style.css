@@ -9959,13 +9959,23 @@ img.card-img-top {
   width: 120px;
   height: 120px; }
 
-.content-header {
+.post-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .post-banner img {
+    height: 150px;
+    width: 100%; }
+  @media screen and (max-width: 640px) {
+    .post-banner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
 
 .card-block {
   padding-top: 0rem; }
@@ -9995,6 +10005,12 @@ img.card-img-top {
 
 .bd-callout + .bd-callout {
   margin-top: -.25rem; }
+
+.bd-callout-success {
+  border-left-color: #5cb85c; }
+
+.bd-callout-success h4 {
+  border-left-color: #5cb85c; }
 
 .bd-callout-info {
   border-left-color: #5bc0de; }

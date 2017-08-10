@@ -306,6 +306,11 @@ img.card-img-top {
     height: 150px;
     width: 100%;
   }
+
+  @include mobile {
+    display: flex;   
+    flex-wrap: wrap;
+  }
 }
 
 .card-block {
