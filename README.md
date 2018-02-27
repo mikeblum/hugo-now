@@ -50,7 +50,7 @@ Latest Font Awesome icons
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/javascript.png" alt="no javascript" width="120px" height="120px"></img>
 
-<h3 class="mt-0">Progrssive Enhancement</h3>
+<h3 class="mt-0">Progressive Enhancement</h3>
 Disabling Javascript should retain the same experience.
 
 <img src="https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/images/sass.png" alt="sass" width="120px" height="120px"></img>
