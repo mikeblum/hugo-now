@@ -18,11 +18,13 @@
                     <ul class="toc-h{{ . }}">
                 {{end}}
                 {{ $base := ($.Page.File.LogicalName) }}
-                {{ $anchorId := ($header | plainify | htmlEscape | urlize) }}
+                {{ $anchorId := ($header | plainify | htmlUnescape | anchorize) }}
                 {{ $href := delimit (slice $base $anchorId) "#" | string }}
-                <a href="{{ relref $.Page $href }}">
-                    <li>{{ $header | plainify | htmlEscape }}</li>
-                </a>
+                <li>
+                  <a href="{{ relref $.Page $href }}">
+                    {{ $header | plainify | htmlUnescape | emojify }}
+                  </a>
+                </li>
                 <!-- close list -->
                 {{ range seq $next_heading }}
                     </ul>
