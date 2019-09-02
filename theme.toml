@@ -8,7 +8,10 @@ description = "a Hugo port of Jekyll Now"
 homepage = "https://github.com/mikeblum/hugo-now"
 tags = ["blog", "profile", "jekyll-now", "bootstrap", "font awesome", "responsive", "pygments"]
 features = ["blog", "portfolio"]
-min_version = 0.24
+min_version = "0.57.0"
+
+[params]
+  mainSections = ["post", "project"]
 
 [author]
   name = "Michael Blum"

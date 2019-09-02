@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 <div class="container">
   <section class="section">
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "project") }}
+      {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
       {{ range sort $paginator.Pages }}
       <article>
         <div class="card">
