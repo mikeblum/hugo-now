@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "![Powered By Hugo](https://raw.githubusercontent.com/mikeblum/hugo-now/master/static/logo/hugo-now.png)",
   "main": "Gulpfile.js",
-  "dependencies": {
-    "braces": ">=2.3.1",
-    "lodash.template": ">=4.5.0",
-    "lodash.mergewith": ">=4.6.2",
-    "sshpk": ">=1.13.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
