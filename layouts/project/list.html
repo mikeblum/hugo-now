@@ -2,7 +2,7 @@
 {{ partial "nav" . }}
 <div class="container">
   <section class="section">
-      {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+      {{ $paginator := .Paginate (where site.RegularPages "Type" "project") }}
       {{ range sort $paginator.Pages }}
       <article>
         <div class="card">
@@ -13,8 +13,8 @@
                 {{ partial "tags" .Params.tags }}
             {{ end }}
             <p class="card-text">{{ .Params.description }}</p>
-            <a href="#" class="card-link">{{ .Params.website }}</a>
-            <a href="#" class="card-link">{{ .Params.repo }}</a>
+            <a href="{{ .Params.website }}" class="card-link">{{ .Params.website }}</a>
+            <a href="{{ .Params.repo }}" class="card-link">{{ .Params.repo }}</a>
           </div>
         </div>
       </article>
