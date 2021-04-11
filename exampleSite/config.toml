@@ -2,8 +2,11 @@ baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
+# pygments
 PygmentsCodeFences = true
-PygmentsStyle = "colorful"
+# see sass/style.css
+# pygmentsUseClasses=true
+PygmentsStyle = "pygments"
 
 [module]
   replacements = "github.com/mikeblum/hugo-now -> ../.."

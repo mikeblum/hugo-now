@@ -268,17 +268,6 @@ nav {
   margin-top: 10px;
 }
 
-pre .code, pre code, .code, code {
-  /* set a max-height of 350px and provide a y-axis scrollbar. */
-  @extend .pre-scrollable;
-  @extend .highlight;
-  padding: 2px 4px;
-  font-size: 90%;
-  color: #c7254e;
-  background-color: #f9f2f4;
-  border-radius: 4px;
-}
-
 .card-inverse > .card-block > li a {
   color: #fff;
 }
