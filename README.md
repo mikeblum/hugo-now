@@ -107,6 +107,27 @@ toc: true
 
 ## Install
 
+### Hugo Module - Preferred
+
+Add Hugo Now as a Module:
+
+```
+# pygments
+PygmentsCodeFences = true
+PygmentsStyle = "pygments"
+
+[module]
+  [[module.imports]]
+    path = "github.com/mikeblum/hugo-now"
+```
+
+Update to the latest version:
+
+```
+hugo mod get -u github.com/mikeblum/hugo-now
+```
+### Git Submodule
+
 Add Hugo Now as a submodule:
 
 `git submodule add git@github.com:mikeblum/hugo-now.git themes/hugo-now`
@@ -129,10 +150,20 @@ Your `.gitmodules` should now contain:
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-# theme
-theme = "hugo-now"
-# Comment the themesDir option if you use this theme in production
-themesDir = "../.."
+
+# use latest
+[module]
+  [[module.imports]]
+    path = "github.com/mikeblum/hugo-now"
+
+# or use local fork at themes/hugo-now
+[module]
+  replacements = "github.com/mikeblum/hugo-now -> ../.."
+  [[module.imports]]
+    path = "github.com/mikeblum/hugo-now"
+
+
+
 # google analytics
 GoogleAnalytics = "UA-XXXXXX"
 
