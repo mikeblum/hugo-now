@@ -214,7 +214,7 @@ html {
 
 html {
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -645,7 +645,7 @@ html {
 
 html {
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -9756,7 +9756,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     h1, h2, h3, h4, h5, h6 {
       line-height: 1.4; } }
 
@@ -9843,7 +9843,7 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid #eee; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .masthead {
       text-align: center; } }
 
@@ -9852,7 +9852,7 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .site-avatar {
       float: none;
       display: block;
@@ -9862,7 +9862,7 @@ img {
 
 .site-info {
   float: left; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .site-info {
       float: none;
       display: block;
@@ -9881,7 +9881,7 @@ img {
   margin: -5px 0 0 0;
   color: #666;
   font-size: 16px; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .site-description {
       margin: 3px 0; } }
 
@@ -9890,7 +9890,7 @@ nav {
   margin-top: 23px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     nav {
       float: none;
       margin-top: 9px;
@@ -9902,7 +9902,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px; }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 768px) {
       nav a {
         margin: 0 10px;
         color: #4183C4; } }
@@ -9969,7 +9969,7 @@ img.card-img-top {
   .post-banner img {
     height: 150px;
     width: 100%; }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .post-banner {
       display: -webkit-box;
       display: -ms-flexbox;

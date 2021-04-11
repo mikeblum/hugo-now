@@ -1,10 +1,11 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-# theme
-theme = "hugo-now"
-# Comment the themesDir option if you use this theme in production
-themesDir = "../.."
+
+[module]
+  [[module.imports]]
+    path = "../.."
+
 # google analytics
 GoogleAnalytics = "UA-XXXXXX"
 
