@@ -23,6 +23,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae tincidunt
 
 Nullam quis dolor urna. Sed elementum placerat condimentum. Quisque eget quam dui. Maecenas suscipit elit non pharetra hendrerit. Maecenas felis libero, iaculis vitae enim id, pretium ullamcorper mi. Sed tempor consequat blandit. Fusce nec nisl nec urna iaculis varius.
 
+```go
+echo 'this is a code same'
+```
+
+```go
+package main
+
+func main() {
+
+}
+```
+
 ### Heading 3
 
 In sollicitudin efficitur porta. Ut lorem nisi, maximus id lorem cursus, auctor sodales risus. Vestibulum fermentum placerat nunc a pulvinar. Nam feugiat maximus nisi, quis consectetur lorem tincidunt quis. Suspendisse potenti. Curabitur ut euismod arcu. Nullam non purus id tellus pellentesque accumsan id nec massa. Mauris tempus molestie dolor a congue. Donec euismod erat ut tortor molestie, id pharetra risus ultrices. Mauris dapibus enim nulla, ut sodales enim cursus vitae. Ut in metus in lorem aliquam ultricies. Etiam tristique erat at posuere cursus. Mauris quam enim, dapibus vel orci sed, efficitur venenatis nisl.

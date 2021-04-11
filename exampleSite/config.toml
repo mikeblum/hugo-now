@@ -2,9 +2,13 @@ baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
+PygmentsCodeFences = true
+PygmentsStyle = "colorful"
+
 [module]
+  replacements = "github.com/mikeblum/hugo-now -> ../.."
   [[module.imports]]
-    path = "../.."
+    path = "github.com/mikeblum/hugo-now"
 
 # google analytics
 GoogleAnalytics = "UA-XXXXXX"
@@ -19,9 +23,6 @@ GoogleAnalytics = "UA-XXXXXX"
   keywords = ["hugo-now", "hugo"]
   avatar = "/images/hugo.png"
   displayauthor = false
-  # pygments
-  PygmentsUseClasses = true
-  PygmentsCodeFences = true
   # pagination
   paginate = 10
   paginatePath = "page"
