@@ -8,5 +8,7 @@
 @import "variables";
 // https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css
 // hugo gen chromastyles --style=colorful > sass/vendor/pygments/scss/colorful.scss
-// @import "vendor/pygments/scss/colorful";
+// pygments
+// pygmentize -S colorful -f html -a .highlight > ../hugo-now/sass/vendor/pygments/scss/colorful.scss
+@import "vendor/pygments/scss/default";
 @import "index";
