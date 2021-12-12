@@ -8,10 +8,13 @@
         <p class="site-description">{{ .Site.Params.description }}</p>
         <div class="social-media">
         {{if (isset .Site.Params "github")}}
-          <a href="{{ .Site.Params.github }}"><i class="fab fa-github"></i></a>
+        <a href="{{ .Site.Params.github }}" target="_blank"><i class="fab fa-github"></i></a>
         {{end}}
         {{if (isset .Site.Params "twitter")}}
-          <a href="{{ .Site.Params.twitter }}"><i class="fab fa-twitter"></i></i></a>
+        <a href="{{ .Site.Params.twitter }}" target="_blank"><i class="fab fa-twitter"></i></i></a>
+        {{end}}
+        {{if (isset .Site.Params "linkedin")}}
+        <a href="{{ .Site.Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
         {{end}}
         </div>
       </div>
