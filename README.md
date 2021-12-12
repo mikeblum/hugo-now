@@ -205,7 +205,9 @@ You can go to localhost:1313 and this theme should be visible.
 
 ### SASS
 
-Build SASS updates by running `gulp` (development) or `gulp dist` (production)
+Build [SASS](https://sass-lang.com/install) updates by downloading [Dart SASS](https://github.com/sass/dart-sass/releases/tag/1.45.0)
+
+`sass sass/style.scss static/css/style.css`
 
 Update `includes.html` with the appropriate CSS file (default is style.min.css):
 

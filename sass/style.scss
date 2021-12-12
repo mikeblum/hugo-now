@@ -2,13 +2,18 @@
 // IMPORTS
 //
 
+@import "variables";
+
 @import "vendor/bootstrap/scss/bootstrap-reboot.scss";
 @import "vendor/bootstrap/scss/bootstrap";
-@import "vendor/font-awesome/scss/font-awesome";
-@import "variables";
+@import "vendor/fontawesome/scss/fontawesome";
+@import "vendor/fontawesome/scss/regular";
+@import "vendor/fontawesome/scss/solid";
+@import "vendor/fontawesome/scss/brands";
 // https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css
 // hugo gen chromastyles --style=colorful > sass/vendor/pygments/scss/colorful.scss
 // pygments
 // pygmentize -S colorful -f html -a .highlight > ../hugo-now/sass/vendor/pygments/scss/colorful.scss
 @import "vendor/pygments/scss/default";
+
 @import "index";

@@ -3,6 +3,8 @@
 // VARIABLES
 //
 
+$fa-font-path:        "../fonts";
+
 // Colors
 $blue: #4183C4;
 
@@ -31,4 +33,3 @@ $georgia: Georgia, serif;
     @content;
   }
 }
-

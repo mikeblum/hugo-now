@@ -6,6 +6,14 @@
       <div class="site-info">
         <h1 class="site-name"><a href="{{ .Site.BaseURL }}/">{{ .Site.Title }}</a></h1>
         <p class="site-description">{{ .Site.Params.description }}</p>
+        <div class="social-media">
+        {{if (isset .Site.Params "github")}}
+          <a href="{{ .Site.Params.github }}"><i class="fab fa-github"></i></a>
+        {{end}}
+        {{if (isset .Site.Params "twitter")}}
+          <a href="{{ .Site.Params.twitter }}"><i class="fab fa-twitter"></i></i></a>
+        {{end}}
+        </div>
       </div>
 
       <nav>
