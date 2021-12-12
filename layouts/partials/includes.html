@@ -1,2 +1,6 @@
 <!-- CSS -->
+{{ if eq (getenv "HUGO_ENV") "production" }}
+<link rel="stylesheet" href="/css/style.min.css">
+{{else}}
 <link rel="stylesheet" href="/css/style.css">
+{{end}}

@@ -207,22 +207,15 @@ You can go to localhost:1313 and this theme should be visible.
 
 Build [SASS](https://sass-lang.com/install) updates by downloading [Dart SASS](https://github.com/sass/dart-sass/releases/tag/1.45.0)
 
+> Development
+
 `sass sass/style.scss static/css/style.css`
 
-Update `includes.html` with the appropriate CSS file (default is style.min.css):
+> Production
 
-```
-<!-- CSS -->
-<link rel="stylesheet" href="/css/style.min.css">
-```
+`sass sass/style.scss static/css/style.css --style compressed`
 
-### Javascript
-
-Hugo Now supports Bootstrap JS but Github Pages and others disable Javascript. This is available for sites hosted on S3 and elsewhere.
-
-Build JS updates by running `gulp` (development) or `gulp dist` (production)
-
-Update `javascript.html` with the appropriate JS files (defaults are bootstrap dependencies).
+Set the `HUGO_ENV` variable to `production` to use the minified CSS.
 
 ## License
 
