@@ -1,55 +1,51 @@
 .pagination {
   display: flex;
-  // 1-2: Disable browser default list styles
-  padding-left: 0; // 1
-  list-style: none; // 2
-  @include border-radius();
-}
-
-.page-item {
-  &:first-child {
-    .page-link {
-      margin-left: 0;
-      @include border-left-radius($border-radius);
-    }
-  }
-  &:last-child {
-    .page-link {
-      @include border-right-radius($border-radius);
-    }
-  }
-
-  &.active .page-link {
-    z-index: 2;
-    color: $pagination-active-color;
-    background-color: $pagination-active-bg;
-    border-color: $pagination-active-border;
-  }
-
-  &.disabled .page-link {
-    color: $pagination-disabled-color;
-    pointer-events: none;
-    cursor: $cursor-disabled; // While `pointer-events: none` removes the cursor in modern browsers, we provide a disabled cursor as a fallback.
-    background-color: $pagination-disabled-bg;
-    border-color: $pagination-disabled-border;
-  }
+  @include list-unstyled();
 }
 
 .page-link {
   position: relative;
   display: block;
-  padding: $pagination-padding-y $pagination-padding-x;
-  margin-left: -1px;
-  line-height: $pagination-line-height;
   color: $pagination-color;
+  text-decoration: if($link-decoration == none, null, none);
   background-color: $pagination-bg;
   border: $pagination-border-width solid $pagination-border-color;
+  @include transition($pagination-transition);
 
-  @include hover-focus {
+  &:hover {
+    z-index: 2;
     color: $pagination-hover-color;
-    text-decoration: none;
+    text-decoration: if($link-hover-decoration == underline, none, null);
     background-color: $pagination-hover-bg;
-    border-color: $pagination-hover-border;
+    border-color: $pagination-hover-border-color;
+  }
+
+  &:focus {
+    z-index: 3;
+    color: $pagination-focus-color;
+    background-color: $pagination-focus-bg;
+    outline: $pagination-focus-outline;
+    box-shadow: $pagination-focus-box-shadow;
+  }
+}
+
+.page-item {
+  &:not(:first-child) .page-link {
+    margin-left: $pagination-margin-start;
+  }
+
+  &.active .page-link {
+    z-index: 3;
+    color: $pagination-active-color;
+    @include gradient-bg($pagination-active-bg);
+    border-color: $pagination-active-border-color;
+  }
+
+  &.disabled .page-link {
+    color: $pagination-disabled-color;
+    pointer-events: none;
+    background-color: $pagination-disabled-bg;
+    border-color: $pagination-disabled-border-color;
   }
 }
 
@@ -57,11 +53,12 @@
 //
 // Sizing
 //
+@include pagination-size($pagination-padding-y, $pagination-padding-x, null, $pagination-border-radius);
 
 .pagination-lg {
-  @include pagination-size($pagination-padding-y-lg, $pagination-padding-x-lg, $font-size-lg, $line-height-lg, $border-radius-lg);
+  @include pagination-size($pagination-padding-y-lg, $pagination-padding-x-lg, $font-size-lg, $pagination-border-radius-lg);
 }
 
 .pagination-sm {
-  @include pagination-size($pagination-padding-y-sm, $pagination-padding-x-sm, $font-size-sm, $line-height-sm, $border-radius-sm);
+  @include pagination-size($pagination-padding-y-sm, $pagination-padding-x-sm, $font-size-sm, $pagination-border-radius-sm);
 }
