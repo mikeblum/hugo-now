@@ -12,6 +12,11 @@
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
+    
+    {{if (isset .Site.Params "mastodon")}}
+    <!-- Mastodon site verification -->
+    <link rel="me" href="{{ .Site.Params.mastodon }}">
+    {{end}}
 
     {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
