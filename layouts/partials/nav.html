@@ -19,6 +19,9 @@
         {{if (isset .Site.Params "linkedin")}}
         <a href="{{ .Site.Params.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
         {{end}}
+        {{if (isset .Site.Params "rss")}}
+        <a href="{{ .Site.Params.rss }}" target="_blank"><i class="fa fa-rss"></i></a>
+        {{end}}
         </div>
       </div>
 
