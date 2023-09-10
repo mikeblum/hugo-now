@@ -1,1 +1,4 @@
-{{ template "_internal/google_analytics.html" . }}
+<!-- analytics -->
+{{if (isset .Site.Params "umamianalytics")}}
+<script async src="https://analytics.umami.is/script.js" data-website-id="{{ .Site.Params.umamianalytics }}"></script>
+{{end}}

@@ -1,4 +1,4 @@
-baseurl = "http://example.org/"
+baseurl = "http://example.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
@@ -13,7 +13,7 @@ PygmentsStyle = "pygments"
   [[module.imports]]
     path = "github.com/mikeblum/hugo-now"
 
-# google analytics
+# deprecated
 GoogleAnalytics = "UA-XXXXXX"
 
 [taxonomies]
@@ -29,3 +29,5 @@ GoogleAnalytics = "UA-XXXXXX"
   # pagination
   paginate = 10
   paginatePath = "page"
+  # analytics
+  umamiAnalytics = "XXXX-XXXX-XXXX"

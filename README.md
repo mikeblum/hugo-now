@@ -158,8 +158,10 @@ title = "My New Hugo Site"
 
 
 
-# google analytics
+# analytics
+# deprecated
 GoogleAnalytics = "UA-XXXXXX"
+UmamiAnalytics = "XXXX-XXXX-XXXX"
 
 [taxonomies]
   category = "categories"

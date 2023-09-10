@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
+    <!-- analytics -->
+    {{ partial "analytics.html" . }}
+    
     {{ partial "meta.html" . }}
 
     {{ partial "favicons.html" . }}
@@ -17,7 +20,7 @@
     <!-- Mastodon site verification -->
     <link rel="me" href="{{ .Site.Params.mastodon }}">
     {{end}}
-
+    
     {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
